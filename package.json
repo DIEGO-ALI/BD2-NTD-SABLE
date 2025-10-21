@@ -1,0 +1,29 @@
+{
+  "name": "bd2-ntd-sable",
+  "version": "1.0.0",
+  "description": "Base de datos # 2 Nuevas tecnologías 2025-2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIEGO-ALI/BD2-NTD-SABLE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DIEGO-ALI/BD2-NTD-SABLE/issues"
+  },
+  "homepage": "https://github.com/DIEGO-ALI/BD2-NTD-SABLE#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
