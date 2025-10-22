@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "9a2a0d8c-33da-44a2-a95a-4ed1b348058c",
+		"name": "PRUEBAS ARTICULOS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49452050",
+		"_collection_link": "https://julian-avila-967-3276252.postman.co/workspace/Julian-Avila's-Workspace~f6bee24f-7e49-465e-88c6-13ebd13dad1e/collection/49452050-9a2a0d8c-33da-44a2-a95a-4ed1b348058c?action=share&source=collection_link&creator=49452050"
+	},
+	"item": [
+		{
+			"name": "GET ARTICULOS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/articulos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"articulos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT ARTICULOS",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"resumen\": \"Este artículo fue ACTUALIZADO desde Postman para pruebas de BD2.\",\r\n  \"cantidad_referencias\": 99\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/articulos/68f843571a3d541502269db1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"articulos",
+						"68f843571a3d541502269db1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE ARTICULOS",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/articulos/68f843571a3d541502269db1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"articulos",
+						"68f843571a3d541502269db1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Computing Education Using Generative Artificial Intelligence Tools: A Systematic Literature Review\",\r\n    \"autores\": \"Friday Joseph Agbo, Chris Olivia, Godsalvation Oguibe, Ismaila Temitayo Sanusi y Godwin Sani\",\r\n    \"aniopublicacion\": 2025,\r\n    \"resumen\": \"Estudia cómo las herramientas de inteligencia artificial generativa, como ChatGPT y Copilot, se usan en la educación en computación. Analiza beneficios, riesgos y prácticas recomendadas para su implementación. ACTUALIZADO\",\r\n    \"cantidad_referencias\": 78,\r\n    \"base_consulta\": \"ScienceDirect\",\r\n    \"fuente_publicacion\": \"Computers and Education Open\",\r\n    \"enlace\": \"https://doi.org/10.1016/j.caeo.2025.100266\",\r\n    \"pdf\": \"1-s2.0-S2666557325000254-main.pdf\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/articulos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"articulos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
